@@ -13,6 +13,6 @@ endpoint=`/bin/hostname`
 echo  "["
 #first
 #last
-echo '{"metric": "'"memory.freepercent"'", "endpoint": "'"$endpoint"'", "timestamp": '"$TS"', "step": 60, "value": '"$freepercent"',"counterType": "GAUGE","tags": ""},'
+echo '{"metric": "'"memory.freepercent"'", "endpoint": "'"$endpoint"'", "timestamp": '"$TS"', "step": 60, "value": '"$mem_freepercent"',"counterType": "GAUGE","tags": ""}'
 echo  "]"
 ### over
